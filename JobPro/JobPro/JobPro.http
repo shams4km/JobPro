@@ -1,0 +1,6 @@
+@JobPro_HostAddress = http://localhost:5135
+
+GET {{JobPro_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

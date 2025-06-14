@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "OTj++Av8g6YzXVrxcjq1lDs6egFK/qzgoF8lY+vWY5M=",
+  "Source": "JobPro",
+  "BasePath": "_content/JobPro",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "JobPro\\wwwroot",
+      "Source": "JobPro",
+      "ContentRoot": "C:\\Users\\kemol\\JobPro\\JobPro\\JobPro\\wwwroot\\",
+      "BasePath": "_content/JobPro",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\kemol\\JobPro\\JobPro\\JobPro\\wwwroot\\admin\\index.html",
+      "SourceId": "JobPro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kemol\\JobPro\\JobPro\\JobPro\\wwwroot\\",
+      "BasePath": "_content/JobPro",
+      "RelativePath": "admin/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\kemol\\JobPro\\JobPro\\JobPro\\wwwroot\\index.html",
+      "SourceId": "JobPro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kemol\\JobPro\\JobPro\\JobPro\\wwwroot\\",
+      "BasePath": "_content/JobPro",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

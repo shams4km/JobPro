@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kemol\\JobPro\\JobPro\\JobPro\\wwwroot\\admin\\index.html",
+      "PackagePath": "staticwebassets\\admin\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kemol\\JobPro\\JobPro\\JobPro\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.JobPro.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.JobPro.props",
+      "PackagePath": "build\\JobPro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.JobPro.props",
+      "PackagePath": "buildMultiTargeting\\JobPro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.JobPro.props",
+      "PackagePath": "buildTransitive\\JobPro.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

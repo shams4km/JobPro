@@ -1,0 +1,356 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro\\JobPro.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Core\\JobPro.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Core\\JobPro.Core.csproj",
+        "projectName": "JobPro.Core",
+        "projectPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Core\\JobPro.Core.csproj",
+        "packagesPath": "C:\\Users\\kemol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kemol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Data\\JobPro.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Data\\JobPro.Data.csproj",
+        "projectName": "JobPro.Data",
+        "projectPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Data\\JobPro.Data.csproj",
+        "packagesPath": "C:\\Users\\kemol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kemol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Core\\JobPro.Core.csproj": {
+                "projectPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Core\\JobPro.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Service\\JobPro.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Service\\JobPro.Service.csproj",
+        "projectName": "JobPro.Service",
+        "projectPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Service\\JobPro.Service.csproj",
+        "packagesPath": "C:\\Users\\kemol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kemol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Core\\JobPro.Core.csproj": {
+                "projectPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Core\\JobPro.Core.csproj"
+              },
+              "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Data\\JobPro.Data.csproj": {
+                "projectPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Data\\JobPro.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.12.1, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.12.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro\\JobPro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro\\JobPro.csproj",
+        "projectName": "JobPro",
+        "projectPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro\\JobPro.csproj",
+        "packagesPath": "C:\\Users\\kemol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kemol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Core\\JobPro.Core.csproj": {
+                "projectPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Core\\JobPro.Core.csproj"
+              },
+              "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Data\\JobPro.Data.csproj": {
+                "projectPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Data\\JobPro.Data.csproj"
+              },
+              "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Service\\JobPro.Service.csproj": {
+                "projectPath": "C:\\Users\\kemol\\Semestrovka\\JobPro\\JobPro.Service\\JobPro.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.12.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

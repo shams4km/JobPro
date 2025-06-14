@@ -4,19 +4,35 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+  	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+  	<NoWarn>$(NoWarn);1591</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>
-      <_ContentIncludedByDefault Remove="wwwroot\css\site.css" />
+        <PackageReference Include="AutoMapper" Version="14.0.0" />
+        <PackageReference Include="MailKit" Version="4.12.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.17"/>
+        <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.3.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.6">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.1" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.12.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="wwwroot\AdminPanel\" />
-      <Folder Include="wwwroot\JobPro\" />
+      <ProjectReference Include="..\JobPro.Core\JobPro.Core.csproj" />
+      <ProjectReference Include="..\JobPro.Data\JobPro.Data.csproj" />
+      <ProjectReference Include="..\JobPro.Service\JobPro.Service.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="wwwroot\JobPro\www.webstrot.com\.DS_Store" />
+      <Folder Include="wwwroot\css\" />
+      <Folder Include="wwwroot\images\" />
+      <Folder Include="wwwroot\js\" />
     </ItemGroup>
 
 </Project>
